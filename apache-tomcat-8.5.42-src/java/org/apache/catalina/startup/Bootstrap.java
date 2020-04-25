@@ -456,6 +456,7 @@ public final class Bootstrap {
      */
     public static void main(String args[]) {
 
+        //这里是tomcat的开始
         if (daemon == null) {
             // Don't set daemon until init() has completed
             Bootstrap bootstrap = new Bootstrap();
